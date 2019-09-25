@@ -1,5 +1,5 @@
 
-### Landing Page created with the Twitter Bootstrap framework.
+### HTML5 + 960GS Framework Template
 ###
 
 ### Technologies used:
