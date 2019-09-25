@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>        
+		<meta charset="utf-8" />
+		<!-- SEO Page Description -->
+    	<meta name="author" content="Iulian Andriescu" />
+    	<meta name="description" content="Homework for Web Design Course" />
+    	<meta name="keywords" content="web design, 960gs html, html, html5, css, css3, 960gs css" />
+        <!-- HTML5 RESET-->
+        <link type="text/css" rel="stylesheet" href="css/html5reset-1.6.1.css" />
+		<!-- 960 GRID SYSTEM -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/960_12_col.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="css/responsive.css" />
+		<!-- Cascade Style Sheet -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/global-styles.css" />   
+		<link type="text/css" rel="stylesheet" media="all" href="css/about.css" /> 
+		
+		<!-- To help browsers older than IE9 interpret HTML5 -->
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<script> 	
+			$(document).ready(function(){
+			   $("header").load("header.html"); 
+			   $("header").load("header.html", function(){ 
+					$("ul#mainMenu li:nth-of-type(2)").addClass("active-button");  			   
+			   });
+			   $("footer").load("footer.html"); 
+			}); 
+		</script> 
+        
+		<title>
+		Web Design Homework - HTML-CSS - About Us Page
+		</title>
+	</head>
+	<body>
+		<div id="page-content" class="container_12">
+			<header class="container_12"> 
+			</header>
+			<main id="main-content" class="container_12">
+				<div class="container_12 inner-banner">
+					<div class="grid_5 alpha">
+						<h1>About Us</h1>
+					</div>
+					<div class="grid_7 omega">
+						<span class="slogan">We are a dynamic team with innovative ideas for you.</span>
+					</div>
+				</div>
+				<div class="grid_9 alpha omega about-content">
+					<p><span>Lorem ipsum dolor sit amet</span><br /> consectetur 
+					adipiscing elit. Donec viverra porta ullamcorper. 
+					Fusce a purus arcu, et congue quam. Sed urna ante, 
+					aliquet eu lacinia ac, aliquet vitae arcu. Integer 
+					id cursus magna. Vestibulum pulvinar dolor et magna 
+					vulputate at sagittis lectus luctus. Aenean pretium 
+					commodo lobortis. Proin ac augue enim, ut pulvinar 
+					ligula. In auctor egestas sem in tempor. Fusce 
+					iaculis vehicula purus. Nam rutrum ante in nibh 
+					facilisis eget placerat lorem ullamcorper. Donec 
+					tincidunt magna id ligula tincidunt eget fringilla 
+					odio tincidunt. Ut pharetra nulla ut nisl consectetur 
+					rutrum. Aenean eros mauris, posuere sit amet luctus eu, 
+					rhoncus at arcu.
+					</p>
+					<p><span>Cras pharetra porta sapien</span><br /> eget pretium. Fusce 
+					id velit est. In eleifend, nibh in auctor malesuada, 
+					sem magna interdum diam, et tincidunt sem orci vel justo. 
+					Vestibulum nec sapien velit. Aenean ultrices dapibus mi, 
+					et dignissim eros mollis in. Aliquam eget dignissim purus. 
+					Sed sed leo sed nisl feugiat imperdiet. Nam elementum velit 
+					sed sapien mollis gravida. Proin eget ligula dolor. 
+					</p>
+					<p><span>Cras viverra, magna quis facilisis </span><br />cursus, nulla 
+					urna posuere orci, ac gravida quam mi nec massa. Nam 
+					dapibus euismod lacus, in accumsan lectus pretium sed. 
+					Suspendisse mollis nulla in mauris luctus euismod 
+					ullamcorper arcu egestas. Nulla facilisi. Cras ac 
+					sapien nisl, placerat pellentesque enim. Nunc 
+					condimentum ligula ac odio feugiat vitae egestas 
+					sem aliquet. Nulla feugiat dui vel tellus consequat 
+					porttitor rutrum magna varius. Proin ut urna felis, 
+					in adipiscing nisl. In libero metus, pharetra eget 
+					molestie ut, dignissim eget mi.
+					</p>
+					<p><span>Nam vulputate nisi ut libero </span><br />porttitor venenatis. 
+					Quisque quam tortor, euismod nec lobortis sed, lobortis 
+					sodales augue. Pellentesque accumsan convallis eleifend. 
+					Suspendisse eu est diam, vitae tempor magna. Suspendisse 
+					at neque convallis neque sagittis ultrices. Fusce dapibus 
+					posuere elit quis vestibulum. Morbi in consectetur massa. 
+					Nunc semper, est a fermentum tempus, odio orci congue 
+					eros, non mattis est eros eget dolor. Ut eleifend viverra 
+					nunc, in lobortis libero lacinia sit amet. Vestibulum 
+					tristique porta nulla et dapibus. Duis ut tortor arcu. 
+					Vestibulum scelerisque dapibus eros at sagittis. Cum 
+					sociis natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Sed sit amet dolor 
+					odio. In nunc mi, porta eu facilisis at, ullamcorper at enim. 
+					</p>
+				</div>
+				<aside id="sidebar" class="grid_3 alpha omega">
+					<div class="panel">
+						<h3>Side Navigation</h3>					
+						<nav class="side-navigation">
+							<ul>
+								<li><img src="images/arrow.png" alt="pointer" /> &nbsp;<a href="about.html" target="_blank">Who We Are</a></li>
+								<li><img src="images/arrow.png" alt="pointer" /> &nbsp;<a href="services.html" target="_blank">What We Do</a></li>
+								<li><img src="images/arrow.png" alt="pointer" /> &nbsp;<a href="portofolio.html" target="_blank">Testimonials</a></li>
+								<li><img src="images/arrow.png" alt="pointer" /> &nbsp;<a href="contact.php" target="_blank">Employment</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="panel">
+						<h3>Our Clients</h3>					
+						<img class="clients" src="images/graphics-logo.png" alt="Graphics Fuel" />
+						<img class="clients" src="images/fashion-logo.png" alt="Fashion Era" />
+						<img class="clients" src="images/merena-logo.png" alt="Merena" />
+						<img class="clients" src="images/sundine-logo.png" alt="Sundine" />
+					</div>
+				</aside>
+			</main>
+			<footer class="container_12"> 
+			</footer>
+		</div>
+	</body>
+</html>

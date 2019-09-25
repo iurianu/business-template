@@ -1,0 +1,121 @@
+
+/**************** Main Content Styles ******************/
+
+main#main-content {
+	background-color: white;
+	min-height: 400px;
+	padding-bottom: 0px;
+}
+
+/**************** Contact Form Styles ******************/
+
+
+#contact-us {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: normal;
+	color: #4f4f4f;
+}
+
+#contact-us input {
+	font-family: Arial;
+	color: #4f4f4f;
+}
+
+form {
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+input{
+	width: 385px;
+	height: 32px;
+}
+
+textarea {
+	width: 385px;
+	height: 160px;
+}
+
+#send {
+	width: 98px;
+}
+
+/******************* Sidebar Styles ********************/
+
+
+#sidebar {
+	background-image: url("../images/bar.png");
+	background-repeat: repeat-y;
+	background-color: #ffffff;
+	height: 100%;
+	box-sizing: border-box;
+	padding-bottom: 140px;
+}
+
+.cont {
+	float: left;
+	width: 100%;
+}
+
+.cont ul {
+	float: left;
+	padding-left: 22px;
+	text-transform: none;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.contact{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #4f4f4f;
+	float: left;
+	padding-top: 30px;
+	margin-left: 30px;
+}
+
+
+.soc {
+	height: 18px;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	margin-left: 10px;
+}
+
+.soc li {
+	margin-right: 10px;
+}
+
+
+h3 {
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 20px;
+	line-height: 28px;
+	padding-left: 22px;
+	border-bottom: 1px #afafaf;
+	background-image: url("../images/h-bar.png");
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+@media all and (max-width: 479px) {
+	form {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	
+	input, textarea {width: 95%;}
+}
+
+@media all and (min-width: 480px) and (max-width: 759px) {
+	#contact-us {width: 66%;}
+	
+	#sidebar {width: 33%;}
+	
+	input, textarea {width: 95%;}
+}

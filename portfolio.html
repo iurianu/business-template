@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>        
+		<meta charset="utf-8" />
+		<!-- SEO Page Description -->
+    	<meta name="author" content="Iulian Andriescu" />
+    	<meta name="description" content="Homework for Web Design Course" />
+    	<meta name="keywords" content="web design, 960gs html, html, html5, css, css3, 960gs css" />
+        <!-- HTML5 RESET-->
+        <link type="text/css" rel="stylesheet" href="css/html5reset-1.6.1.css" />
+		<!-- 960 GRID SYSTEM -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/960_12_col.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="css/responsive.css" />
+		<!-- Cascade Style Sheet -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/global-styles.css" /> 
+		<link type="text/css" rel="stylesheet" media="all" href="css/portfolio.css" />
+		<!-- To help browsers older than IE9 interpret HTML5 -->
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+		<script> 	
+			$(document).ready(function(){
+			   $("header").load("header.html"); 
+			   $("header").load("header.html", function(){ 
+					$("ul#mainMenu li:nth-of-type(4)").addClass("active-button");  			   
+			   });
+			   $("footer").load("footer.html"); 
+			}); 
+		</script> 
+		
+		<title>
+		Web Design Homework - HTML-CSS - Portfolio Page
+		</title>
+	</head>
+	<body>
+		<div id="page-content" class="container_12">
+			<header class="container_12">
+			
+			</header>
+			<div class="container_12 inner-banner">
+				<div class="grid_5 alpha">
+					<h1>Portfolio</h1>
+				</div>
+				<div class="grid_7 omega">
+					<span class="slogan">	We do our best for our clients. Check out our products.</span>
+				</div>
+			</div>
+			<main id="main-content" class="container_12">
+				<section id="gallery" class="grid_12">
+					<figure>
+						<h5>Web Design</h5>
+						<a href="#">
+							<img class="image" src="images/home-pic-01.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>
+					<figure>
+						<h5>Blog Design</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-02.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure> 
+					<figure>
+						<h5>Logos</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-03.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>
+					<figure>
+						<h5>SEO</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-01.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>
+					<figure>
+						<h5>SMM</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-02.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure> 
+					<figure>
+						<h5>Social</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-03.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>
+					<figure>
+						<h5>Branding</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-01.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>					
+					<figure>
+						<h5>Print Works</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-02.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>					
+					<figure>
+						<h5>Graphics</h5>
+						<a href="#">
+							<img  class="image" src="images/home-pic-03.jpg" alt="Lorem Ipsum">
+						</a>
+						<figcaption>Lorem ipsum dolor sit amet
+						</figcaption>
+					</figure>
+				</section>
+			</main>
+			<footer class="container_12"> 
+			</footer>
+		</div>
+		<script> 	
+			$(document).ready(function(){
+			   $("header").load("header.html"); 
+			   $("header").load("header.html", function(){ 
+					$("ul#mainMenu li:nth-of-type(4)").addClass("active-button");  			   
+			   });
+			   $("footer").load("footer.html"); 
+			}); 
+		</script> 
+	</body>
+</html>

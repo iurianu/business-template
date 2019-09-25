@@ -1,0 +1,50 @@
+
+#gallery figure h5{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 25px;
+	color: #585858;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#gallery figure {
+	float: left;
+	padding-left: 30px;
+	margin-top: 10px;
+	border: 5px solid #FFFFFF;
+}
+
+#gallery figure figcaption {
+	font-family: Arial;
+	font-weight: normal;
+	color: #4f4f4f;
+	margin-top: 0px;
+}
+
+.image {
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+
+.image:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+}
+
+.image{
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+@media all and (max-width: 479px) {
+	figure {width: 100%;}
+}
+
+@media all and (min-width: 480px) and (max-width: 759px) {
+	figure {width: 50%;}
+}
+
+@media all and (min-width: 760px) {
+	figure {width: 33%;}
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>        
+		<meta charset="utf-8" />
+		<!-- SEO Page Description -->
+    	<meta name="author" content="Iulian Andriescu" />
+    	<meta name="description" content="Homework for Web Design Course" />
+    	<meta name="keywords" content="web design, 960gs html, html, html5, css, css3, 960gs css" />
+        <!-- HTML5 RESET-->
+        <link type="text/css" rel="stylesheet" href="css/html5reset-1.6.1.css" />
+		<!-- 960 GRID SYSTEM -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/960_12_col.css" />
+		<link type="text/css" rel="stylesheet" media="all" href="css/responsive.css" />
+		<!-- Cascade Style Sheet -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/global-styles.css" /> 
+		<link type="text/css" rel="stylesheet" media="all" href="css/services.css" />
+		<!-- To help browsers older than IE9 interpret HTML5 -->
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<script> 	
+			$(document).ready(function(){
+			   $("header").load("header.html"); 
+			   $("header").load("header.html", function(){ 
+					$("ul#mainMenu li:nth-of-type(3)").addClass("active-button");  			   
+			   });
+			   $("footer").load("footer.html"); 
+			}); 
+		</script> 
+		
+		<title>
+		Web Design Homework - HTML-CSS - Services Page
+		</title>
+	</head>
+	<body>
+		<div id="page-content" class="container_12">
+			<header class="container_12"> 
+			</header>
+			<div class="container_12 inner-banner">
+				<div class="grid_5 alpha">
+					<h1>Our Services</h1>
+				</div>
+				<div class="grid_7 omega">
+					<span class="slogan">	We are best in what we do. Check out our services.</span>
+				</div>
+			</div>
+			<main id="main-content" class="container_12">
+				<div class="our-services">
+					<section class="grid_4 alpha">
+						<h4>Website Design</h4>
+						<img class="service" src="images/home-pic-01.jpg" />
+						<p>Lorem ipsum dolor sit amet, consectetur 
+						adipiscing elit. Donec viverra porta ullamcorper. 
+						Fusce a purus arcu, et congue quam. Sed urna ante, 
+						aliquet eu lacinia ac, aliquet vitae arcu. Integer 
+						id cursus magna. Vestibulum pulvinar dolor et magna 
+						vulputate at sagittis lectus luctus. Aenean pretium 
+						commodo lobortis.</p>
+						<div class="bottom-nav">
+							<div class="button-next-left">
+							<a href="portfolio.html" target="_top">Portfolio</a>
+							</div>
+							<div class="button-next-right">
+							<a href="contact.php" target="_top">Hire Us Now</a>
+							</div>	
+						</div>
+					</section>
+					<section class="grid_4">
+						<h4>Logo & Branding</h4>
+						<img class="service" src="images/home-pic-02.jpg" />
+						<p>Cras pharetra porta sapien eget pretium. Fusce 
+						id velit est. In eleifend, nibh in auctor malesuada, 
+						sem magna interdum diam, et tincidunt sem orci vel justo. 
+						Vestibulum nec sapien velit. Aenean ultrices dapibus mi, 
+						et dignissim eros mollis in. Aliquam eget dignissim purus. 
+						Sed sed leo sed nisl feugiat imperdiet. Nam elementum velit 
+						sed sapien mollis gravida. Proin eget ligula dolor.</p>
+						<div class="bottom-nav">
+							<div class="button-next-left">
+							<a href="portfolio.html" target="_top">Portfolio</a>
+							</div>
+							<div class="button-next-right">
+							<a href="contact.php" target="_top">Hire Us Now</a>
+							</div>	
+						</div>
+					</section>
+					<section class="grid_4 omega">
+					<h4>Blog Development</h4>
+						<img class="service" src="images/home-pic-03.jpg" />
+						<p>Cras viverra, magna quis facilisis cursus, nulla 
+						urna posuere orci, ac gravida quam mi nec massa. Nam 
+						dapibus euismod lacus, in accumsan lectus pretium sed. 
+						Suspendisse mollis nulla in mauris luctus euismod 
+						ullamcorper arcu egestas. Nulla facilisi. Cras ac 
+						sapien nisl, placerat pellentesque enim.</p>
+						<div class="bottom-nav">
+							<div class="button-next-left">
+							<a href="portfolio.html" target="_top">Portfolio</a>
+							</div>
+							<div class="button-next-right">
+							<a href="contact.php" target="_top">Hire Us Now</a>
+							</div>	
+						</div>
+					</section>
+					<section class="grid_4 alpha">
+						<h4>Print Design</h4>
+						<img class="service" src="images/home-pic-01.jpg" />
+						<p>Proin ac augue enim, ut pulvinar 
+						ligula. In auctor egestas sem in tempor. Fusce 
+						iaculis vehicula purus. Nam rutrum ante in nibh 
+						facilisis eget placerat lorem ullamcorper. Donec 
+						tincidunt magna id ligula tincidunt eget fringilla 
+						odio tincidunt. Ut pharetra nulla ut nisl consectetur 
+						rutrum. Aenean eros mauris, posuere sit amet luctus eu, 
+						rhoncus at arcu.</p>
+						<div class="bottom-nav">
+							<div class="button-next-left">
+							<a href="portfolio.html" target="_top">Portfolio</a>
+							</div>
+							<div class="button-next-right">
+							<a href="contact.php" target="_top">Hire Us Now</a>
+							</div>	
+						</div>
+					</section>
+					<section class="grid_4">
+						<h4>SEO<span> &nbsp;(Search Engine Optimization)</span></h4>
+						<img class="service" src="images/home-pic-02.jpg" />
+						<p>Cras pharetra porta sapien eget pretium. Fusce 
+						id velit est. In eleifend, nibh in auctor malesuada, 
+						sem magna interdum diam, et tincidunt sem orci vel justo. 
+						Vestibulum nec sapien velit. Aenean ultrices dapibus mi, 
+						et dignissim eros mollis in. Aliquam eget dignissim purus. 
+						Sed sed leo sed nisl feugiat imperdiet. Nam elementum velit 
+						sed sapien mollis gravida. Proin eget ligula dolor.</p>
+						<div class="bottom-nav">
+							<div class="button-next-left">
+							<a href="portfolio.html" target="_top">Portfolio</a>
+							</div>
+							<div class="button-next-right">
+							<a href="contact.php" target="_top">Hire Us Now</a>
+							</div>	
+						</div>
+					</section>
+					<section class="grid_4 omega">
+						<h4>Social Media Marketing</h4>
+						<img class="service" src="images/home-pic-03.jpg" />
+						<p>Cras viverra, magna quis facilisis cursus, nulla 
+						urna posuere orci, ac gravida quam mi nec massa. Nam 
+						dapibus euismod lacus, in accumsan lectus pretium sed. 
+						Suspendisse mollis nulla in mauris luctus euismod 
+						ullamcorper arcu egestas. Nulla facilisi. Cras ac 
+						sapien nisl, placerat pellentesque enim. </p>
+						<div class="bottom-nav">
+							<div class="button-next-left">
+							<a href="portfolio.html" target="_top">Portfolio</a>
+							</div>
+							<div class="button-next-right">
+							<a href="contact.php" target="_top">Hire Us Now</a>
+							</div>	
+						</div>
+					</section>
+				</div>
+				<div class="clear"></div>
+				<div class="our-services">
+					<h4>Our Benefits</h4><br /><br />
+					<div class="grid_6 alpha">
+						<img src="images/checked.png" alt="checked" />
+							<bdi>Nam libero tempore, cum soluta nobis est 
+							eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+							facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+							</bdi>
+						<img src="images/checked.png" alt="checked" />
+							<bdi>Nam libero tempore, cum soluta nobis est 
+							eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+							facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+							</bdi>
+						<img src="images/checked.png" alt="checked" />
+							<bdi>Nam libero tempore, cum soluta nobis est 
+							eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+							facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+							</bdi>
+					</div>
+					<div class="grid_6 omega">
+						<img src="images/checked.png" alt="checked" />
+							<bdi>Nam libero tempore, cum soluta nobis est 
+							eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+							facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+							</bdi>
+						<img src="images/checked.png" alt="checked" />
+							<bdi>Nam libero tempore, cum soluta nobis est 
+							eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+							facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+							</bdi>
+						<img src="images/checked.png" alt="checked" />
+							<bdi>Nam libero tempore, cum soluta nobis est 
+							eligendi optio cumque nihil impedit quo minus id quod maxime placeat 
+							facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+							</bdi>
+					</div>
+				</div>
+			</main>
+			<footer class="container_12"> 
+			</footer>
+		</div>
+	</body>
+</html>

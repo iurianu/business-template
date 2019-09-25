@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>        
+		<!-- To help browsers older than IE9 interpret HTML5 -->
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+		<title>Web Design Homework - HTML-CSS - Home Page</title>
+		
+		<!-- SEO Page Description -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" >
+    	<meta name="author" content="Iulian Andriescu" />
+    	<meta name="description" content="Homework for Web Design Course" />
+    	<meta name="keywords" content="web design, 960gs html, html, html5, css, css3, 960gs css" />
+		<meta name="HandheldFriendly" content="true" />     
+		
+		<!-- HTML5 RESET-->
+        <link type="text/css" rel="stylesheet" href="css/html5reset-1.6.1.css" />
+		
+		<!-- 960 GRID SYSTEM -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/960_12_col.css" />
+        <link type="text/css" rel="stylesheet" media="all" href="css/responsive.css" />
+		
+		<!-- Cascade Style Sheet -->
+        <link type="text/css" rel="stylesheet" media="all" href="css/global-styles.css" />   
+		<link type="text/css" rel="stylesheet" media="all" href="css/home.css" /> 
+
+	</head>
+	<body>
+		<div id="page-content" class="container_12">
+			<header class="container_12"> 
+
+			</header>			
+			<div id="home-banner" class="container_12">
+				<div id="start" class="grid_6 alpha">
+					<h1>
+						We have what it takes to
+						take your website to the <br />
+						<span>new height of success</span>
+					</h1>
+					<div id="get-started">
+						<a href="about.html">						
+							Get started here &nbsp;&nbsp;<img src="images/arrow1.png" />
+						</a>
+					</div>
+				</div>
+				<div id="slideshow" class="grid_6 omega">
+					<div class="slide-caption">
+						U Design + V Code
+					</div>
+					<div class="slide-controls">
+					</div>
+					<div class="clear"></div>
+					<div class="slide-image">
+					</div>
+				</div>
+			</div>			
+			<main id="main-content" class="container_12"> 
+				<aside id="second-banner" class="container_12">
+					<div class="grid_4 alpha">
+						<img src="images/wallet.png" alt="save big" />
+						<p>
+							<span>Save Big With Us</span><br />
+							Lorem ipsum dolor sit amet, <br />
+							consectetur adipiscing elit.
+						</p>
+					</div>
+					<div class="grid_4">
+						<img src="images/clock.png" alt="On Time" />
+						<p>
+							<span>Always On Time</span><br />
+							Lorem ipsum dolor sit amet, <br />
+							consectetur adipiscing elit.
+						</p>
+					</div>
+					<div class="grid_4 omega">
+						<img src="images/phone.png" alt="save big" />
+						<p>
+							<span>Contact Us!</span><br />
+							Lorem ipsum dolor sit amet, <br />
+							consectetur adipiscing elit.
+						</p>
+					</div>			
+				</aside>
+				<section class="grid_4">
+					<h1>Who We Are</h1>
+					<img class="demo" src="images/home-pic-01.jpg" alt="business home" /> <br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique tristique lacus in varius. Donec nec vestibulum ligula. Aenean turpis diam, feugiat a luctus in, rhoncus eget risus. Maecenas consequat porttitor dui, vitae consequat massa imperdiet ut. elit ut tempus lobortis, eros leo molestie velit, non egestas augue nulla eget erat.
+					</p>
+					<div class="button-next">
+						<a href="about.html" target="_top">Read more</a>
+					</div>
+				</section>
+				<section class="grid_4">
+					<h1>What We Do</h1>
+					<img class="demo" src="images/home-pic-02.jpg" alt="business home" /> <br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique tristique lacus in varius. Donec nec vestibulum ligula. Aenean turpis diam, feugiat a luctus in, rhoncus eget risus. Maecenas consequat porttitor dui, vitae consequat massa imperdiet ut.
+					</p>
+					<ul class="link">
+						<li><img src="images/arrow.png" alt="pointer"> &nbsp;<a href="services.html" target="_blank">Website Design</a></li>
+						<li><img src="images/arrow.png" alt="pointer"> &nbsp;<a href="services.html" target="_blank">Blog Design</a></li>
+						<li><img src="images/arrow.png" alt="pointer"> &nbsp;<a href="services.html" target="_blank">Branding Design</a></li>
+					</ul>	
+				</section>
+				<section class="grid_4">
+					<h1>Why Hire Us</h1>
+					<img class="demo" src="images/home-pic-03.jpg" alt="business home" /> <br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique tristique lacus in varius. Donec nec vestibulum ligula. Aenean turpis diam, feugiat a luctus in, rhoncus eget risus. Maecenas consequat porttitor dui, vitae consequat massa imperdiet ut. elit ut tempus lobortis, eros leo molestie velit, non egestas augue nulla eget erat.
+					</p>
+					<div class="button-next">
+						<a href="portfolio.html" target="_top">Read more</a>
+					</div>			
+				</section>
+			</main>
+			<footer class="container_12"> 
+
+			</footer>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script> 	
+			$(document).ready(function(){
+			   //$("header").load("header.html"); 
+			   $("header").load("header.html", function(){ 
+					$("ul#mainMenu li:nth-of-type(1)").addClass("active-button");  			   
+			   });
+			   $("footer").load("footer.html"); 
+			}); 
+		</script> 
+
+	</body>
+</html>
